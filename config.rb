@@ -33,7 +33,7 @@ end
 # Deploy site to github pages
 activate :deploy do |deploy|
 
-  deploy.build_before = true
+  deploy.build_before = false
 
   deploy.method = :rsync
   deploy.host   = 'chambersjudd.com'

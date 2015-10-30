@@ -23,8 +23,8 @@ function run(){
 		init();
 		$("body").css("background-color", "#ebff71");
 		$("#about").find("h3").css("color", "#333333");
-  $("#fb").show();
-  $("#title").show();
+    $("#fb").show();
+    $("#title").show();
 	}
 
 	// Analytics for about link

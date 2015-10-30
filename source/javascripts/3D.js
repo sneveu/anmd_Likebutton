@@ -749,7 +749,7 @@ function liked(){
       x: head.position.x,
       y: head.position.y + 10,
       z: headPositionZ + headPositionZLiked}, 1000 )
-      .easing( TWEEN.Easing.Elastic.Out).start();
+      .easing(TWEEN.Easing.Elastic.Out).start();
 
     mySound.setSpeed(4);
     mySound.setVolume(90);
